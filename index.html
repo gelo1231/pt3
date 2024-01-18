@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Events</title>
+  <style>
+    /* Body styles with background image */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+      background-image: url('News.jpg'); /* Replace 'background.jpg' with your image file */
+      background-size: cover;
+      background-position: center;
+      color: white; /* Text color */
+    }
+
+    /* Container styles for the entire content */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: transparent; /* Semi-transparent white background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    /* Styles for the sports events section */
+    .NEWS-section {
+      background-color: transparent;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    /* Style for each sports event */
+    .event {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.6s ease, transform 0.5s ease; /* Smooth transitions for hover effect */
+    }
+
+    /* Style for the sports event image */
+    .event img {
+      width: 150px; /* Adjust the image width as needed */
+      margin-right: 30px;
+      border-radius: 10%; /* Circular images */
+    }
+
+    /* Hover effect for sports events with linear gradient */
+    .event:hover {
+      background-image: linear-gradient(135deg, transparent 0%, transparent 17%,rgba(87, 146, 234,0.6) 17%, rgba(87, 146, 234,0.6) 59%,transparent 59%, transparent 64%,rgba(34, 81, 222,0.6) 64%, rgba(34, 81, 222,0.6) 100%),linear-gradient(45deg, transparent 0%, transparent 2%,rgb(87, 146, 234) 2%, rgb(87, 146, 234) 46%,rgb(114, 178, 239) 46%, rgb(114, 178, 239) 54%,transparent 54%, transparent 63%,rgb(7, 48, 216) 63%, rgb(7, 48, 216) 100%),linear-gradient(90deg, rgb(96,211,255),rgb(96,211,255));
+      transform: translateX(20px); /* Slide to the right on hover */
+    }
+    /* Header Styles */
+header {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.0rem;
+}
+    /* Header styles */
+    h3, p {
+      margin: .1rem;
+      padding: .1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container for content -->
+  <div class="container">
+    <!-- Sports Events Section -->
+    <header>
+      <h2>NEWS</h2>
+    </header>
+      <!-- Individual Sports Events -->
+      <div class="event">
+        <img src="climate change.png" alt="News image">
+        <div>
+          <h3>NASA Analysis Finds Strong El<br> Niño Could Bring Extra Floods This Winter</h3>
+          <p>An analysis by NASA’s sea level change science team finds that if a strong El Niño develops this winter, cities along the western coasts of the Americas could see an increase in the frequency of high-tide flooding that can swamp roads and spill into low-lying buildings.
+            El Niño is a periodic climate phenomenon characterized by higher-than-normal sea levels and warmer-than-average ocean temperatures along the equatorial Pacific. These conditions can spread poleward along the western coasts of the Americas. El Niño, which is still developing this year, can bring more rain than usual to the U.S. Southwest and drought to countries in the western Pacific like Indonesia. These impacts typically occur in January through March.
+            The NASA analysis finds that a strong El Niño could result in up to five instances of a type of flooding called a 10-year flood event this winter in cities including Seattle and San Diego. Places like La Libertad and Baltra in Ecuador could get up to three of these 10-year flood events this winter. This type of flooding doesn’t normally occur along the west coast of the Americas outside of El Niño years. The researchers note that by the 2030s, rising seas and climate change could result in these cities experiencing similar numbers of 10-year floods annually, with no El Niño required</p>
+        </div>
+        </div>
+        <div class="event">
+        <img src="AI.jpg" alt="News image">
+        <div>
+          <h3>Smart factories in German industry</h3>
+          <p>Germany is a global pioneer when it comes to using artificial intelligence in industrial manufacturing. 
+          Artificial Intelligence, or AI, is fundamentally changing the world of work. Many experts expect revolutionary upheavals similar to those caused by the Industrial Revolution in the 19th Century. According to the German Federal Ministry of Labour and Social Affairs, by 2035 there will no longer be any jobs at all where AI is not relevant. This includes jobs where you would not expect to say that nowadays, the ministry says. Estimates by the consultancy and audit firm PwC suggest that AI could contribute up to 15.7 trillion US dollars to the global economy by 2030.</p>
+      </div>
+     </div>
+      <!-- Add more events as needed -->
+    </div>
+</body>
+</html>
